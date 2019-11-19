@@ -1,0 +1,17 @@
+[build]
+  command = "yarn function" # build cmd
+  functions = "functions" # output dir for lambda
+  publish = "build" # output directory for site
+  YARN_VERSION = "1.16.0"
+
+# Redirect api call
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Redirect the rest of the call to the app (internal routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

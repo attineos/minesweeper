@@ -1,0 +1,53 @@
+{
+  "game": {
+    "title": "Minesweeper",
+    "win": "YEAH !! Congrats that's a win !",
+    "loose": "OH NO !! The mine exploded and you lost...",
+    "mega_easy": "mega easy",
+    "easy": "easy",
+    "medium": "medium",
+    "hard": "hard"
+  },
+  "home": {
+    "title": "Get ready to rumble !",
+    "subtitle": "Welcome to our minesweeper, are you ready ?",
+    "paragraph": "In that case fill info to start the game.",
+    "firstNameInputLabel": "First name",
+    "lastNameInputLabel": "Last name",
+    "usernameInputLabel": "Username",
+    "difficultyLabel": "Level",
+    "actionButton": "Play !",
+    "moreInfoSubtitle": "More info ?",
+    "moreInfoParagraph": "If you want more info, you're on the right place !",
+    "rankingButton": "Show ranking",
+    "settingButton": "Settings",
+    "goodLuck": "Good luck {{username}} !",
+    "changeId": "Modify my Username"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "Sorry the radar spots nothing on the map...",
+    "paragraph": "The page you're trying to reach isn't available."
+  },
+  "ranking": {
+    "title": "Ranking",
+    "columnOneTitle": "Rank",
+    "columnTwoTitle": "Score",
+    "columnThreeTitle": "ID"
+  },
+  "settings": {
+    "title": "Settings",
+    "paragraph": "What do you want to modify, {{username}} ?",
+    "language": {
+      "label": "Language",
+      "french": "French",
+      "english": "English"
+    },
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "medium": "Dark medium"
+    }
+  }
+}

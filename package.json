@@ -1,0 +1,54 @@
+{
+  "name": "battleship",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase-admin": "^8.7.0",
+    "i18next": "^17.2.0",
+    "i18next-xhr-backend": "^3.2.0",
+    "lodash": "^4.17.15",
+    "netlify-lambda": "^1.6.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-i18next": "^10.13.1",
+    "react-router-dom": "^5.1.1",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "dev": "netlify dev",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.?(js|?(s)css|json)\"",
+    "function": "yarn build && yarn build:lambda",
+    "start:lambda": "netlify-lambda serve --config ./functions.webpack.config.js ./lambda",
+    "build:lambda": "netlify-lambda build --config ./functions.webpack.config.js ./lambda"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "src/__tests__/data"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

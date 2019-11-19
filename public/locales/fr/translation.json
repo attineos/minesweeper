@@ -1,0 +1,53 @@
+{
+  "game": {
+    "title": "Démineur",
+    "win": "YEAH !! Félicitations c'est une victoire !",
+    "loose": "OH NON !! La mine a explosé et vous avez perdu...",
+    "mega_easy": "enfantin",
+    "easy": "facile",
+    "medium": "normale",
+    "hard": "difficile"
+  },
+  "home": {
+    "title": "Préparez-vous au combat ! Déminez pour gagner !",
+    "subtitle": "Bienvenue dans notre démineur, êtes vous prêt ?",
+    "paragraph": "Dans ce cas remplissez les champs pour démarrer une partie.",
+    "firstNameInputLabel": "Prénom",
+    "lastNameInputLabel": "Nom",
+    "usernameInputLabel": "Pseudo",
+    "difficultyLabel": "Difficulté",
+    "actionButton": "Jouer !",
+    "moreInfoSubtitle": "Plus d'info ?",
+    "moreInfoParagraph": "Si vous désirez plus d'information c'est ici que ça se passe !",
+    "rankingButton": "Consulter le classement",
+    "settingButton": "Paramètres",
+    "goodLuck": "Bonne chance {{username}} !",
+    "changeId": "Modifier mon pseudo"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "subtitle": "Désolé le radar ne repère rien sur la carte....",
+    "paragraph": "La page que vous tentez d'attendre n'est pas disponible."
+  },
+  "ranking": {
+    "title": "Classement",
+    "columnOneTitle": "N°",
+    "columnTwoTitle": "Score",
+    "columnThreeTitle": "Pseudo"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "paragraph": "Que souhaitez-vous modifier {{username}} ?",
+    "language": {
+      "label": "Langue",
+      "french": "Français",
+      "english": "Anglais"
+    },
+    "theme": {
+      "label": "Thème",
+      "light": "Clair",
+      "dark": "Foncé",
+      "medium": "Semi-clair"
+    }
+  }
+}
